@@ -1,0 +1,61 @@
+.about{
+    background: #ffffff;
+}
+img.about__img{
+    border-radius: 10px;
+    width: 100%;
+}
+h1.about__heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+}
+
+.pointss{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    box-shadow: 2px 2px 2px whitesmoke;
+}
+
+.backdark{
+    background-color: rgb(245, 245, 245);
+}
+
+.pointheader{
+    color: rgb(0, 162, 255);
+    font-size: 50px;
+    margin: 10px;
+}
+.containpoints{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px){
+    .p__color{
+        font-size: 15px!important;
+    }
+}
+@media only screen and (max-width: 425px){
+button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 165px;
+    height: 50px;
+    font-size: 13px;
+    transition: .4s ease;
+}
+}
+@media only screen and (max-width: 768px){
+    h1.about__heading{
+        margin-bottom: 10px;
+        font-weight: 700;
+        text-align: start;
+        font-family: Montserrat,sans-serif;
+        font-size: 30px;
+    }
+}

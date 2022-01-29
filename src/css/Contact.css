@@ -1,0 +1,83 @@
+.contact{
+    background-color: #ffffff;
+    color: rgb(44, 44, 44);
+    border: 2px solid whitesmoke;
+}
+
+h1.hire__text {
+    font-size: 30px;
+    color: rgba(29,29,36,.75);
+    font-weight: 400;
+    padding: 50px 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+.contact .contact__box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    border-radius: 70px 5px 5px 5px;
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 221, 0.521), rgba(65, 2, 182, 0.747));
+    box-shadow: 4px 4px 4px rgb(194, 194, 194);
+
+}
+
+.contact .contact__box .input__box{
+    display: flex;
+   justify-content: space-between;
+
+   
+
+}
+
+.contact .contact__box .input__box input{
+    margin: 10px auto 50px auto;
+    padding: 0 20px;
+   background-color: whitesmoke;
+    border: 2px solid rgba(0,0,0,.1);
+    
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 20px 0px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    letter-spacing: .1px;
+    
+    border: 2px solid hsla(0,0%,100%,.2);
+}
+
+
+button.btn.contact.pointer {
+    margin: 20px ;
+    background-color: tomato;
+
+} 
+button.btn.contact.pointer:hover {
+    
+    background-color: rgb(252, 4, 4);
+
+} 
+
+@media only screen and (max-width: 425px){
+    .contact .contact__box .input__box{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+

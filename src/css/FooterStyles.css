@@ -1,0 +1,111 @@
+.Box{
+    padding: 80px 60px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.Box .Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Box .Column{
+    display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.Box .Row{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, 
+                         minmax(185px, 1fr));
+  grid-gap: 10px;
+
+
+}
+
+.Box .FooterLink{
+    color: rgb(44, 44, 44);
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+     
+}
+.Box .FooterLink:hover{
+    color: blue;
+      transition: 200ms ease-in;
+}
+
+.Heading{
+    font-size: 24px;
+    color: rgb(8, 8, 8);
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    justify-content: space-around;
+    
+}
+
+.socialmedia .twitter{
+    color: blue;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgb(224, 224, 224);
+    margin: 15px;
+
+
+
+
+}
+.socialmedia .insta{
+    color: rgb(196, 41, 170);
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgb(224, 224, 224);
+    margin: 15px;
+
+}
+.socialmedia .fb{
+    color: blue;
+    border-radius: 50px;
+    
+    box-shadow: 2px 2px 2px rgb(224, 224, 224);
+    margin: 15px;
+
+}
+.socialmedia .fb :hover{
+    border-radius: 50px;
+
+    box-shadow: 4px 4px 4px rgba(184, 184, 184, 0.747);
+}
+.socialmedia .insta :hover{
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(184, 184, 184, 0.747);
+}
+.socialmedia .twitter :hover{
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(184, 184, 184, 0.747);
+}
+
+.image_playstore{
+    width: 150px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.footer_lead{
+    font-size:45px;
+    padding: 10px;
+    color: rgb(54, 54, 54);
+
+}
+.footer_lead p{
+    padding: auto;
+}
